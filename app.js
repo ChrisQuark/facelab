@@ -20,18 +20,15 @@ window.matchMedia('(min-width: 801px)').addEventListener('change', event => { if
 const services = {
   skin: {
     name: 'Skin care',
-    price: 'Pricing after consultation',
-    description: 'Explore 3D skin analysis, Dermapen microneedling and skincare products. Your therapist will discuss your goals, treatment suitability and pricing before you decide.'
+    description: 'Explore 3D skin analysis, Dermapen microneedling and skincare products. Your therapist will discuss your goals, treatment suitability before you decide.'
   },
   nutrition: {
     name: 'Nutrition',
-    price: '€30 per consultation',
     description: 'An individual consultation to discuss your eating habits and explore practical nutrition guidance that fits your everyday life.'
   },
   movement: {
     name: 'Reformer',
-    price: 'Details & pricing coming soon',
-    description: 'Explore movement with a reformer specialist. Discuss your starting point, goals and session options; details and pricing will be shared before bookings open.'
+    description: 'Explore movement with a reformer specialist. Discuss your starting point, goals and session options; details will be shared before bookings open.'
   }
 };
 const dialog = document.querySelector('#booking-dialog');
@@ -73,7 +70,6 @@ nextButton.addEventListener('click', () => {
   if (!selectedService) return;
   const service = services[selectedService];
   document.querySelector('#summary-service').textContent = service.name;
-  document.querySelector('#summary-price').textContent = service.price;
   document.querySelector('#summary-description').textContent = service.description;
   selection.hidden = true;
   result.hidden = false;
