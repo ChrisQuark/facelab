@@ -28,10 +28,10 @@ const services = {
     price: '€30 per consultation',
     description: 'An individual consultation to discuss your eating habits and explore practical nutrition guidance that fits your everyday life.'
   },
-  mind: {
-    name: 'Psychology',
-    price: '€50 · 45 minutes',
-    description: 'A private, one-to-one session with a psychologist. A space to talk about what is on your mind and explore the support you are looking for.'
+  movement: {
+    name: 'Reformer',
+    price: 'Details & pricing coming soon',
+    description: 'Explore movement with a reformer specialist. Discuss your starting point, goals and session options; details and pricing will be shared before bookings open.'
   }
 };
 const dialog = document.querySelector('#booking-dialog');

@@ -1,16 +1,12 @@
-# FaceLab
+# Inside Out — Limassol
 
-Landing page for FaceLab in Limassol, Cyprus.
+Static landing page for Inside Out: nutrition, reformer movement and skin care.
 
-Static HTML, CSS and JavaScript, served by GitHub Pages.
+Live website: https://facelabcy.com
+Instagram: https://www.instagram.com/inside_out_cy/
 
-The visit planner is a demonstration and does not reserve appointments or collect personal information.
+Hosted by GitHub Pages from the root of `main`. The domain and repository retain their existing names. No build step is required. The visit planner is a demonstration and does not send or reserve appointments.
 
-## Editing
+Brand assets are in `assets/inside-out-logo.png`; the fictional editorial hero image is `assets/inside-out-hero.jpg`. Both were created for Inside Out. The portrait is illustrative and does not represent a practitioner or client.
 
-- `index.html`: page content and metadata.
-- `styles.css`: responsive styling.
-- `app.js`: navigation and visit planner.
-- `assets/`: editorial image and favicon.
-
-Nutrition is displayed at €30 per consultation; psychology at €50 per 45-minute session. Beauty treatment prices, exact location and contact details remain to be confirmed.
+Reformer session details and pricing remain unannounced. Do not reuse the former psychology pricing.
