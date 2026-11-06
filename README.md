@@ -2,7 +2,7 @@
 
 Static landing page for Inside Out: nutrition, reformer movement and skin care.
 
-Live website: https://facelabcy.com
+Live website: https://www.insideoutcy.com
 Instagram: https://www.instagram.com/inside_out_cy/
 
 Hosted by GitHub Pages from the root of `main`. The domain and repository retain their existing names. No build step is required. The visit planner is a demonstration and does not send or reserve appointments.
